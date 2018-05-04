@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{1A03A86E-3DCC-4ACE-BE6F-A68F0498B32F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{CA9A6CDB-1647-408F-AD42-6CF9945AF672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{CF47C4E6-0872-48D1-81B1-FC17237186A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{D70C2252-2F22-44CB-976C-919E3597EECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70C2252-2F22-44CB-976C-919E3597EECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70C2252-2F22-44CB-976C-919E3597EECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70C2252-2F22-44CB-976C-919E3597EECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70C2252-2F22-44CB-976C-919E3597EECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D70C2252-2F22-44CB-976C-919E3597EECA} = {CF47C4E6-0872-48D1-81B1-FC17237186A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA1A61A5-2FA1-4B27-B6F6-32F8FEC8A060}
+	EndGlobalSection
+EndGlobal
