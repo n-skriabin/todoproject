@@ -13,8 +13,12 @@
         <input id="password" type="password" placeholder="Пароль" required>
     </fieldset>
     <fieldset id="actions"> 
+        <div style="margin: 20px 0px;">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox">Запомнить меня</label>
+        </div>
         <input type="submit" id="submit" value="ВОЙТИ">       
-        <a href="">Забыли пароль?</a><a routerLink="/registration" routerLinkActive="active">Регистрация</a>
+        <a href="">Забыли пароль?</a><a routerLink="/signup" routerLinkActive="active">Регистрация</a>
     </fieldset>
 </form>
 

@@ -50,9 +50,7 @@ namespace WebUI
                     await next();
                 }
             });
-            app.UseStaticFiles(); // For the wwwroot folder
-
-            
+            app.UseStaticFiles(); // For the wwwroot folder    
         }
     }
 }

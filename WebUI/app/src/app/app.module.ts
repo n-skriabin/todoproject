@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AuthenticationComponent } from './authentication/authentication.component';
+import { SignupComponent } from './signup/signup.component';
 
 import { RouterModule, Routes } from '@angular/router';
-import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoutes: Routes = [
-  { path: 'auth', component: AuthenticationComponent },
-  { path: 'registration', component: RegistrationComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthenticationComponent,
-    RegistrationComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
