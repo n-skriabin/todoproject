@@ -1,4 +1,4 @@
-core-js@2.5.5
+core-js@2.5.7
 MIT
 Copyright (c) 2014-2018 Denis Pushkarev
 
@@ -87,7 +87,11 @@ MIT
 MIT
 MIT
 
-rxjs@6.2.0
+@angular/router@6.0.3
+MIT
+MIT
+
+rxjs@6.2.2
 Apache-2.0
 Apache License
                          Version 2.0, January 2004
