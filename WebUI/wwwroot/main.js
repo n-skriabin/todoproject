@@ -158,7 +158,7 @@ module.exports = "\r\nhtml, body\r\n{\r\n    height: 90%;\r\n}\r\n\r\nbody\r\n{\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n</head>\n\n<body>\n\n<form id=\"login\">\n    <h1>Форма входа</h1>\n    <fieldset id=\"inputs\">\n        <input id=\"username\" type=\"text\" placeholder=\"Логин\" autofocus required>   \n        <input id=\"password\" type=\"password\" placeholder=\"Пароль\" required>\n    </fieldset>\n    <fieldset id=\"actions\">\n            <p>\n                    <label>\n                      <input type=\"checkbox\" />\n                      <span>Red</span>\n                    </label>\n                  </p>  \n        <input type=\"submit\" id=\"submit\" value=\"ВОЙТИ\">       \n        <a href=\"\">Забыли пароль?</a><a routerLink=\"/registration\" routerLinkActive=\"active\">Регистрация</a>\n    </fieldset>\n</form>\n\n</body>\n</html>\n"
+module.exports = "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n</head>\n\n<body>\n\n<form id=\"login\">\n    <h1>Вход</h1>\n    <fieldset id=\"inputs\">\n        <input id=\"username\" type=\"text\" placeholder=\"Логин\" autofocus required>   \n        <input id=\"password\" type=\"password\" placeholder=\"Пароль\" required>\n    </fieldset>\n    <fieldset id=\"actions\"> \n        <input type=\"submit\" id=\"submit\" value=\"ВОЙТИ\">       \n        <a href=\"\">Забыли пароль?</a><a routerLink=\"/registration\" routerLinkActive=\"active\">Регистрация</a>\n    </fieldset>\n</form>\n\n</body>\n</html>\n"
 
 /***/ }),
 
