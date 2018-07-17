@@ -6,11 +6,12 @@
         <input id="password" type="password" placeholder="Пароль" required>
         <input id="password_copy" type="password" placeholder="Повторите пароль" required>
     </fieldset>
-    <fieldset id="actions">
-        <form action="">
-        <input type="submit" id="submit" value="Зарегистрироваться">
-        <div class="g-recaptcha" data-sitekey="6Lf0_CoUAAAAAKibE4lxIMuLsDNnNOwHpnN8MsbK"></div>
-    </form>
+    <fieldset id="actions" style="display: flex;">
+            <re-captcha (resolved)="resolved($event)" siteKey="6Lf0_CoUAAAAAKibE4lxIMuLsDNnNOwHpnN8MsbK"></re-captcha>
+        <input type="submit" id="submit" (click)="signUpButton();" value="Зарегистрироваться" style="margin-top: 7px;">
+        <div>
+        <p [hidden]="!(recaptchaIsCompleted && buttonWasPressed || !recaptchaIsCompleted && buttonWasPressed)">Вы не прошли качу! Может быть, вы - робот? Задумайтесь...</p>
+        </div>
     </fieldset>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </form>

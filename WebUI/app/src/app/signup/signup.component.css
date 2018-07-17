@@ -22,7 +22,7 @@ body
     background-image: -ms-linear-gradient(top, #fff, #eee);
     background-image: -o-linear-gradient(top, #fff, #eee);
     /* background-image: linear-gradient(top, #fff, #eee);   */
-    height: 340px;
+    height: 410px;
     width: 400px;
     margin: -150px 0 0 -230px;
     padding: 30px;
@@ -136,12 +136,12 @@ fieldset
 /*--------------------*/
 #actions
 {
-    margin: 25px 0 0 0;
+    margin: 7px 0 0 0;
 }
 
 #submit
 {		
-    background-color: #ffb94b;
+    background-color: #fff9ef;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
     background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
     background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
