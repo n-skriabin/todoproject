@@ -1,0 +1,17 @@
+<form id="login">
+    <h1>Регистрация</h1>
+    <fieldset id="inputs">
+        <input id="username" type="text" placeholder="Логин" autofocus required>
+        <input id="email" type="email" placeholder="Почта" required>   
+        <input id="password" type="password" placeholder="Пароль" required>
+        <input id="password_copy" type="password" placeholder="Повторите пароль" required>
+    </fieldset>
+    <fieldset id="actions" style="display: flex; text-align: -webkit-center;">
+            <re-captcha (resolved)="resolved($event)" siteKey="6Lf0_CoUAAAAAKibE4lxIMuLsDNnNOwHpnN8MsbK"></re-captcha>
+        <input type="submit" id="submit" (click)="signUpButton();" value="Зарегистрироваться" style="margin-top: 7px;">
+        <div>
+        <p [hidden]="!(recaptchaIsCompleted && buttonWasPressed || !recaptchaIsCompleted && buttonWasPressed)">Вы не прошли качу! Может быть, вы - робот? Задумайтесь...</p>
+        </div>
+    </fieldset>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</form>
